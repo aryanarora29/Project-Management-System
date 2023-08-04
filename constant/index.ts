@@ -18,8 +18,7 @@ export const NavLinks = [
     "Machine Learning",
     "Cybersecurity",
     "Blockchain",
-    "E-commerce",
-    "Chatbots"
+    "IoT"
   ]
   
   export const footerLinks = [

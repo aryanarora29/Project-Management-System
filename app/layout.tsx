@@ -3,7 +3,7 @@ import Footer  from'@/components/Footer';
 import Navbar from '@/components/Navbar';
 
 export const metadata = {
-  title: 'Aryan',
+  title: 'Aryan-Project-Manager',
   description: 'howcase and discover remarkable developer projects',
 }
 

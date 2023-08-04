@@ -21,9 +21,11 @@ export default function Modal({ children }: { children: ReactNode }) {
 
     return (
         <div ref={overlay} className="modal" onClick={(e) => handleClick(e)}>
-            <button type="button" onClick={onDismiss} className="absolute top-4 right-8">
+            <button type="button" onClick={onDismiss} className="absolute top-3 right-8">
                 <Image src="/close.svg" width={17} height={17} alt="close" />
             </button>
+                
+
 
             <div ref={wrapper} className="modal_wrapper">
                 {children}
@@ -31,3 +33,4 @@ export default function Modal({ children }: { children: ReactNode }) {
         </div>
     );
 }
+

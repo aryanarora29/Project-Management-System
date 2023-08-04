@@ -16,6 +16,7 @@ body {
 
 .flexCenter {
   @apply flex justify-center items-center;
+
 }
 
 .flexBetween {
@@ -78,10 +79,13 @@ body {
 /* Related Project Card */
 .related_project-card {
   @apply flex-col rounded-2xl min-w-[210px] min-h-[197px];
+
 }
 
 .related_project-card_title {
+ 
   @apply justify-end items-end w-full h-1/3 bg-gradient-to-b from-transparent to-black/50 rounded-b-2xl gap-2 absolute bottom-0 right-0 font-semibold text-lg text-white p-4;
+
 }
 
 .related_projects-grid {
